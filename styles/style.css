@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{font-family: 'Montserrat', sans-serif;
+background-color:#cef0d4;
+margin:0px;
+padding:40px;}
+
+
+h1 {font-size: 32px; color:red; font-weight:400;}
+h2 {font-size: 20px; color:rgb(175, 215, 0);
+text-decoration: underline; text-align: center; border-bottom: 1px solid black;
+width:400px;
+height:50px;}
+p{font weight:400; font-size:16px;
+/*padding-left:10px;
+padding-right:10px;
+margin-left:10px;
+margin-right:10px;*/
+padding:10px 5px 15px 20px;
+margin:10px 5px 15px 20px;
+line-height:2;
+letter-spacing:2px;}
+p:nth-child(2n){background-color:#d3d3d3;}
+sup{font-size:10px;}
+.contents_box{border:1px solid black;
+width:400px;}
+#contents_h2{width:400px;
+border-bottom: 1px solid black;}
+#profile_pic{border: 5px solid red;
+background-color:white;}
